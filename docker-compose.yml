@@ -1,15 +1,15 @@
 version: '3'
 
 services:
-  # GO
-  go-app:
-    container_name: golang
+  # C
+  c-app:
+    container_name: c
     build:
-      context: ./docker/go
+      context: ./docker/c_lessons
       dockerfile: Dockerfile
     tty: true
     volumes:
-      - ./docker/go/test:/var/www/html
+      - ./docker/c_lessons:/var/www/html
     ports:
       - "8080:80"
 #    network_mode: "sample-network5"
