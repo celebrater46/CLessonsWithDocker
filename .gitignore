@@ -4,4 +4,4 @@
 !*.*
 
 # Dockerfile could not added the repository because it was ignored like binary files
-docker/Dockerfile
+!docker/Dockerfile
