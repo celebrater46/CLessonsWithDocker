@@ -9,7 +9,7 @@ services:
       dockerfile: Dockerfile
     tty: true
     volumes:
-      - ./docker/c_lessons:/var/www/html
+      - ./docker/c_lessons:/home/c_lessons
     ports:
       - "8080:80"
 #    network_mode: "sample-network5"
