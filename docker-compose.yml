@@ -3,9 +3,9 @@ version: '3'
 services:
   # C
   c-app:
-    container_name: c
+    container_name: c_lessons
     build:
-      context: ./docker/c_lessons
+      context: ./docker
       dockerfile: Dockerfile
     tty: true
     volumes:
